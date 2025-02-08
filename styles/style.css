@@ -55,7 +55,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding:0 2rem; */
     margin: 0rem 6rem;
     color: #FFFFFF;
 }
@@ -67,7 +66,7 @@ nav{
     gap: 3rem;
     border: 2px solid rgba(255, 255, 255, 0.44);
     border-radius: 2rem;
-    padding: 0.5rem;
+    padding:0.6rem;
     background: linear-gradient(90deg, #999999, #FFFFFF, #999999 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -96,10 +95,12 @@ nav{
 
 nav button{
     display: flex;
+    justify-content: center;
     align-items: center;
     border-radius: 5rem;
     font-weight: 400;
     font-size: 1.25rem;
+    margin-top: 0;
 }
 
 nav button img{
@@ -110,9 +111,8 @@ nav button img{
     background: linear-gradient(90deg, #999999, #FFFFFF, #999999 100%);
     background-clip: text;
     -webkit-background-clip: text;
+    color: transparent;
     height: 2rem;
-    width: 2rem;
-    align-items: center;
 }
 
 .menu-icon{
